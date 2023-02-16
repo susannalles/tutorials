@@ -123,7 +123,7 @@ And at the end you can create the full bibliography which will be created with t
 ## Timelines
 You can create a timeline of your bibliography, going to Tools > Create Timeline: 
 
-![Image](.img/zotero_23.png)
+![Image](img/zotero_23.png)
 
 ## And the coolest thing: Zotero API 
 You can do many things with the API, one of which is to import your bibliography directly to your webpage with a line of code: 
@@ -136,6 +136,6 @@ h2>Diachronic Spanish Corpus Linguistics</h2>
 </div>
 ```
 
-![Image](img/zotero/24.png)
+![Image](img/zotero_24.png)
 
 
