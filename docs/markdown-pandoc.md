@@ -137,6 +137,10 @@ date: February 16, 2023
 ---
 ```
 
+Here is the result: 
+
+![Transformation from md to pdf](img/result_pdf.png)
+
 # And what about your disseration?
 
 There are a lot of templates out there you can use:
