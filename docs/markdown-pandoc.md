@@ -15,7 +15,7 @@ nav_order: 1
     - [Miktex](https://miktex.org/) works on Mac, Linux and Windows.
     - On Mac, [basictex](www.tug.org/mactex/morepackages.html) also works fine.
 - Online alternative: <https://dillinger.io/>
-- Download this [file](http://susannalles.com/markdown.zip)
+- Download this [file](https://github.com/susannalles/tutorials/blob/main/docs/md-pandoc-wd.zip)
 
 # What is Markdown?
 
