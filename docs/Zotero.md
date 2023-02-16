@@ -84,7 +84,7 @@ To create a Group collection that will be shared with other people:
 ![Image](img/zotero_12.png)
 
 
-## Step 7: Export in different citation styles 
+## Step 8: Export in different citation styles 
 
 Choose the items you want in your bibliography 
 
@@ -126,7 +126,7 @@ You can create a timeline of your bibliography, going to Tools > Create Timeline
 
 ![Image](img/zotero_23.png)
 
-## Zotero API 
+# Zotero API 
 
 You can do many things with the API, one of which is to import your bibliography directly to your webpage with a line of code: 
 
@@ -140,4 +140,60 @@ h2>Diachronic Spanish Corpus Linguistics</h2>
 
 ![Image](img/zotero_24.png)
 
+# Zotero, Markdown, and Pandoc 
+
+When we work with any given markdown file we can integrate bibliographic citations by using BibTeX (.bib). Zotero has the functionality to export the items of a collection towards multiple format, among which BibLaTeX and BibTeX. To do so will follow these steps: 
+
+## Step 1
+
+Select the items you need for your bibliography and click right on "Export Items...". As Format, just select "BibTex" and click "OK". This will prompt the save window and you will save the document in the folder of your choice as something like "bibliography.bib". 
+
+Each item will be similar to this: 
+
+```
+@book{gonzalez_rolan_traduccion_2014,
+	location = {Madrid},
+	edition = {1ª edición},
+	title = {Traducción y elementos paratextuales: los prólogos a las versiones castellanas de textos latinos en el siglo {XV}},
+	isbn = {978-84-16020-31-7},
+	series = {Hitos},
+	shorttitle = {Traducción y elementos paratextuales},
+	pagetotal = {689},
+	publisher = {Escolar y Mayo Editores S.L.},
+	author = {González Rolán, Tomás},
+	editora = {López Fonseca, Antonio},
+	editoratype = {collaborator},
+	date = {2014},
+	keywords = {Castellà (Llengua), Segle {XV}, Traducció, Llatí, Manuscrits llatins},
+}
+```
+
+## Step 2
+
+Now you connect your .md file with your BibTex file, like this: 
+
+```
+---
+title: The Title
+author: Your Name
+date: February 16, 2023
+bibliography: bibliography.bib
+---
+```
+
+## Step 3
+
+For each reference, you use the id from the `bibliography.bib`, like this: 
+
+```md
+A reference formatted like this will render properly as inline- or footnote- style citation [@gonzalez_rolan_traduccion_2014, 67].
+```
+
+## Step 4
+
+Leave a section at the end of the document to add your Bibliography. 
+
+## Step 5 
+
+Run the transformation with this command: `pandoc main.doc --citeproc -o main.pdf`
 
