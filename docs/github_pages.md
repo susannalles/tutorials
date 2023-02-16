@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Zotero
+title: GitHub and GitHub Pages
 date:   2020
 author: Susanna Allés Torrent
 nav_order: 6
