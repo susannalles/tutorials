@@ -141,13 +141,9 @@ date: February 16, 2023
 
 There are a lot of templates out there you can use:
 
-- Template for U Oxford: https://github.com/tompollard/phd_thesis_markdown
-- markdown-paper: https://github.com/ihrke/markdown-paper/tree/master/pdf
-- Overleaf: https://es.overleaf.com/gallery/tagged/markup
+- Template for U Oxford: <https://github.com/tompollard/phd_thesis_markdown>
+- markdown-paper: <https://github.com/ihrke/markdown-paper/tree/master/pdf>
+- Overleaf: <https://es.overleaf.com/gallery/tagged/markup>
 
-I particularly love this one Eisvogel Template:
-
-- https://github.com/Wandmalfarbe/pandoc-latex-template
-- https://tthub.io/aprende/l1-intro-a-tei/
-- https://zenodo.org/record/4430863#.YDWABmMo_L8
+I particularly love this one [Eisvogel Template](https://github.com/Wandmalfarbe/pandoc-latex-template), that I used to transform the md file behind [this tutorial](https://tthub.io/aprende/l1-intro-a-tei/) into [this pdf](https://zenodo.org/record/4430863#.YDWABmMo_L8)
 
