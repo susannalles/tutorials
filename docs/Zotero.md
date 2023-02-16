@@ -28,7 +28,7 @@ Once you are logged in, you can manage your folders and all your items:
 
 At this point, you can try to create a folder collection realted to this course or to your disseration. 
 
-## Sept 2: Download Zotero
+# Sept 2: Download Zotero
 
 The best way to use Zotero is an standalone app, as such you can use it even if you don't have an internet connection: 
 
@@ -126,7 +126,7 @@ And at the end you can create the full bibliography which will be created with t
 
 ![Image](img/zotero_22.png)
 
-## Timelines
+## Step Timelines
 
 You can create a timeline of your bibliography, going to Tools > Create Timeline: 
 
