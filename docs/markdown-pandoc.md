@@ -143,9 +143,11 @@ Here is the result:
 
 With Pandoc you can also convert your markdown files into simple slides for a presentation using a function called 'beamer'. 
 
-- Open the file called `presentatio.md` and go through the content you can edit with your name if you wish. 
-- Go to your command line and simply type: 
+- Open the file called `presentation.md` and go through the content you can edit with your name if you wish. 
+- Go to your command line and simply type: `pandoc -t beamer presentation.md -o presentation.pdf`
 - The results are these: 
+
+![Results for the presentation](img/beamer1.png)
 
 
 
