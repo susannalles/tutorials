@@ -6,6 +6,8 @@ author: Susanna Allés Torrent
 nav_order: 3
 ---
 
+# HTML: the very basics 
+
 Websites are built with a language called Hypertext Markup Language or HTML. It is called "hypertext" simply because it goes beyond the text and creates links among texts. 
 
 In fact, when you open the browser, you are seeing the result of the code in which the page is written. The sections, titles, menus, paragraphs, etc., even the colors, do not exist as such, like in a print document, but they are only code. 
