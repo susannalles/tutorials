@@ -1,7 +1,141 @@
 ---
 layout: default
-title: Test 2
+title: Zotero
+date:   2018-09-24
+author: Susanna Allés Torrent
 nav_order: 3
 ---
 
-Test 2 
+Zotero is a citation managment tool. It is free and multiplatform (Windows, Linux, Mac).  
+
+The last version, Zotero 5.0, is used as an standalone software and it works with Firefox as its primary platform (It can be used with Chrome and Safari but the plugin extension is not completely developed).  
+
+Zotero helps you to "collect, organize, cite, and share research". 
+
+Zotero works at two different levels:
+
+- as an standalone software on your machines
+
+![Image](img/zotero/01.png)
+
+- as an extension for Firefox, connected with your account. 
+
+![Image](img/zotero/02.png)
+
+
+## Frist Steps: 
+- Download and Install [Firefox](https://www.mozilla.org/en-US/firefox/new/), if you don't have it. 
+- Create a username: <https://www.zotero.org/user/register>
+
+![Image](img/zotero/03.png)
+
+Once you are logged in, you can manage your folders and all your items: 
+
+![Image](img/zotero/04.png)
+
+You can try to create a folder collection
+
+## Download Zotero
+
+The best way to use Zotero is an standalone app, as such you can use it even if you don't have an internet connection: 
+
+- [Download Zotero 5.0](https://www.zotero.org/download/)
+
+
+Now, you also have to download the Firefox Connector to be able to collect all items that you need for your bibliography: 
+
+- [Download Zotero Firefox Connector](https://www.zotero.org/download/) 
+
+Once you have install the connector you will need to restart your browser, and you will see a litle icon on the top right corner: 
+
+![Image](img/zotero/05.png)
+![Image](img/zotero/06.png)
+![Image](img/zotero/07.png)
+![Image](img/zotero/08.png)
+
+Open your Zotero app, login with your credentials, and start exporting articles, books, etc. that you whish. 
+
+## Zotero is syncornized 
+Zotero is syncronized with your app and with the online platform. Be sure at the very begining that you login with your credentials, at Zotero > Prefernces 
+
+![Image](img/zotero/09.png)
+
+If sometimes you need to syncronize it faster or be sure that everything is up to date, click the sync botton in the top right corner of your app:
+
+![Image](img/zotero/10.png) 
+
+## Create a Collection 
+You can create collections from the online platform or from your app.
+ 
+- To create a new collection: ![Image](img/zotero/11.png)
+
+## Collect bibliographical items
+Go to UM catalog library and find some bibliography you need <https://www.library.miami.edu/>. 
+
+- Download at least 4.  
+- Visualize in the list: title, Creator, Item Type, Date 
+- Explore the Metadata section: Infos, Notes, Tags, Related 
+
+## Add notes, and tags 
+For each item, you can add personal notes, and also tags or keywords. 
+
+![Image](img/zotero/13.png)
+
+![Image](img/zotero/14.png)
+
+## Collaborate and share bibliography 
+
+- To create a Group collection that will be shared with other people: ![Image](../public/img/zotero/12.png)
+
+
+## Export in different citation styles 
+- Choose the items you want in your bibliography 
+
+![Image](img/zotero/15.png)
+
+- Choose the style you want (MLA, Chicago, etc.): 
+
+![Image](img/zotero/16.png)
+
+- Save it in rdf format or docx or pdf: 
+
+![Image](img/zotero/17.png)
+
+- And voilà: 
+
+![Image](img/zotero/18.png)
+
+## Export it directly to Microsoft and LiberOffice
+Last versions of Microsoft Word have the Zotero plugin installed automatically when you install the app. So it is easy as open Word after the installation and you have it: 
+
+![Image](img/zotero/19.png)
+
+While you write, you can add and edit citations in your text. 
+![Image](img/zotero/20.png)
+
+For which, a pop-up windwow will appear with all your items: 
+![Image](img/zotero/21.png)
+
+And at the end you can create the full bibliography which will be created with the items that you have cited. 
+
+![Image](img/zotero/22.png)
+
+## Timelines
+You can create a timeline of your bibliography, going to Tools > Create Timeline: 
+
+![Image](.img/zotero/23.png)
+
+## And the coolest thing: Zotero API 
+You can do many things with the API, one of which is to import your bibliography directly to your webpage with a line of code: 
+
+```
+h2>Diachronic Spanish Corpus Linguistics</h2>
+
+<?php $URL='https://api.zotero.org/users/1167759/collections/GCNLKMRQ/items?format=bib&style=chicago-author-date'; $var=file_get_contents($URL); echo $var?>
+	
+</div>
+```
+
+![Image](img/zotero/24.png)
+
+
