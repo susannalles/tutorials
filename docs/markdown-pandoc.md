@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Markdown and Pandoc
-nav_order: 1
+nav_order: 3
 ---
 
 # What you need to work with Markdown and Pandoc?
