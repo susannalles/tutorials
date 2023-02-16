@@ -154,6 +154,7 @@ With Pandoc you can also convert your markdown files into simple slides for a pr
 - Go to your terminal, write the name of the file and the ouput, and do a pdf: `pandoc tutorial.md -o tutorial.pdf`
 - Now transform the file into a presentation: `pandoc -t beamer tutorial.md -o tutorial_presentation.pdf`
 
+To work with Beamer like a pro, visit [Making presentations with Pandoc beamer](https://github.com/alexeygumirov/pandoc-beamer-how-to)
 
 # And what about your disseration?
 
