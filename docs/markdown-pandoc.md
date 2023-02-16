@@ -45,7 +45,7 @@ nav_order: 1
 - Files are heavier and tend to corrupt.
 - Problems merging files, copying text from other files, numbering.
 
-[RafaDavis](https://github.com/rafadavis/markdown-workshop/blob/master/README.md)
+See [RafaDavis](https://github.com/rafadavis/markdown-workshop/blob/master/README.md)
 
 # Why should I use Markdown?
 
@@ -58,7 +58,7 @@ nav_order: 1
 - The more you learn, the more powerful tools you can access, such as automatic citations.
 - If you are writing a dissertation, or a thesis, there is a good chance your university has the template ready, so you don't need to worry about adjusting to their standards.
 
-[RafaDavis](https://github.com/rafadavis/markdown-workshop/blob/master/README.md)
+See [RafaDavis](https://github.com/rafadavis/markdown-workshop/blob/master/README.md)
 
 # You even can create Websites
 
@@ -81,7 +81,7 @@ Work locally, and open your text editor, such as VSC. A Markdow file is nothing 
 - Edit it as you like taking some elements from the Cheatsheet Markdown Syntax
 - Save it
 
-![Edit test1]((img/ed_md.png)
+![Edit test1](img/ed_md.png)
 
 ## Now, how do we transform this?
 
