@@ -1,12 +1,10 @@
 ---
 layout: default
-title: Markdown
+title: Markdown and Pandoc
 nav_order: 1
 ---
 
-# A tutorial: Markdown and Pandoc 
-
-# What you need to work today?
+# What you need to work with Markdown and Pandoc?
 
 - A plain text editor (Mac, Linux, Windows): [Visual Studio Code](https://code.visualstudio.com/)
 - Command Line
@@ -140,6 +138,16 @@ date: February 16, 2023
 Here is the result: 
 
 ![Transformation from md to pdf](img/result_pdf.png)
+
+# Sept 5: use Markdown for your presentations 
+
+With Pandoc you can also convert your markdown files into simple slides for a presentation using a function called 'beamer'. 
+
+- Open the file called `presentatio.md` and go through the content you can edit with your name if you wish. 
+- Go to your command line and simply type: 
+- The results are these: 
+
+
 
 # And what about your disseration?
 
