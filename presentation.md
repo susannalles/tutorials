@@ -1,6 +1,8 @@
-% Workshop: Stop using Word. Just write markdown!
-% Susanna Allés-Torrent
-% February 24, 2021
+---
+layout: default
+title: Markdown
+nav_order: 2
+---
 
 # What you need to work today?
 
