@@ -3,7 +3,7 @@ layout: default
 title: Command Line
 date:   2023-01-02
 author: Susanna Allés Torrent
-nav_order: 4
+nav_order: 2
 ---
 
 # Practise 1: Bash Command
