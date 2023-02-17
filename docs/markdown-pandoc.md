@@ -12,8 +12,8 @@ nav_order: 5
   * Windows: hit Super/Windows key, type "powershell" and press Enter
 - [Pandoc](https://pandoc.org/installing.html) to convert to different files.
 - Some latex version to create pdf files
-    - [Miktex](https://miktex.org/) works on Mac, Linux and Windows.
-    - On Mac, [basictex](www.tug.org/mactex/morepackages.html) also works fine.
+    - [Miktex](https://miktex.org/) works on Mac, Linux and Windows (Recommended). 
+    - On Mac, [basictex](https://tug.org/mactex/morepackages.html) also works fine and is lighter. You can install it too from the command line if you have [Homebrew](https://brew.sh/) installed: `brew install basictex`
 - Online alternative: <https://dillinger.io/>
 - Download this [file](https://github.com/susannalles/tutorials/blob/main/docs/md-pandoc-wd.zip)
 
