@@ -10,8 +10,7 @@ Some basic tasks of text analysis can be performed through the command line.
 
 - Install [Wget](https://www.gnu.org/software/wget/) 
 - Place yourself in your working directory (e.g. /Users/susername/Documents/DHPracticum)
-- Download any text, e.g. `wget http://archive.org/download/thestoriesmother05792gut/stmtn10.txt
-ls`
+- Download any text, e.g. `wget http://archive.org/download/thestoriesmother05792gut/stmtn10.txt`
 - Check the file is there: `ls`
 - Get the information about that file: `file stmtn10.txt`
 - Get the first few lines of the file: `head stmtn10.txt`
