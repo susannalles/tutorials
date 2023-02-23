@@ -6,9 +6,7 @@ date: 2017
 nav_order: 2
 ---
 
-# 2. Tecnologías web
-
-## 2.2. De la línea de comandos al web
+## De la línea de comandos al web
 
 Línea de comandos es una interfaz de texto en la que pueden escribirse reglas o comandos que el ordenador debe llevar a cabo. Muchas de las tareas que realizamos cotidianamente son realmente más eficaces si las realizamos con el terminal, especialmente en relación a los derechos de los archivos. 
 
