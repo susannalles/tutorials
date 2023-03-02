@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HTML
+title: HTML (spa)
 author: Susanna Allés Torrent
 date: 2017
 nav_order: 3
