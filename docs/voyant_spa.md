@@ -34,3 +34,12 @@ Añade la las palabras vacías que no creas que aportan una semántica relevante
 6.¿Y el apartado “Keywords in context”? 
 
 7.¿Te parece más útil Voyant Tools o AntConc? 
+
+<!--	Exported from Voyant Tools (voyant-tools.org).
+The iframe src attribute below uses a relative protocol to better function with both
+http and https sites, but if you're embedding this into a local web page (file protocol)
+you should add an explicit protocol (https if you're using voyant-tools.org, otherwise
+it depends on this server.
+Feel free to change the height and width values or other styling below: -->
+
+<iframe style='width: 470px; height: 410px;' src='https://voyant-tools.org/tool/Cirrus/?corpus=2af37ac89126357adb0c0ffec188ddec'></iframe>
