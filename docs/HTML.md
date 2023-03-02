@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HTML
+title: HTML (en)
 date:   2020
 author: Susanna Allés Torrent
 nav_order: 3
